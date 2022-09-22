@@ -15,5 +15,7 @@ from datetime import datetime, timedelta
 # data = datetime(2022, 9, 22, 16, 18)
 # print(data.strftime('%d/%m/%Y %H:%M:%S'))
 
-data = datetime.strptime('22/09/2022', '%d/%m/%Y')
-print(data.timestamp())
+d1 = datetime.strptime('20/04/1987 20:00:00', '%d/%m/%Y %H:%M:S')
+d2 = datetime.strptime('27/07/2004 23:31:09', '%d/%m/%Y %H:%M:S')
+dif = d1 - d2
+print(dif)
