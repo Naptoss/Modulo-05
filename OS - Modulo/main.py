@@ -1,4 +1,6 @@
 import os
+import shutil
+
 
 caminho_procura = input("Digite um caminho: ")
 termo_procura = input("Digite um termo: ")
