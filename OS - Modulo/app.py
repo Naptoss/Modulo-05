@@ -1,6 +1,9 @@
 import os
 import shutil
 
+# Nessa aula foi se usado o modulo shutil e tambem usado o modulo os para
+# criar arquivos e mover os arquivos para outra pasta
+
 caminho_original = 'D:\Clips\Python_teste'
 caminho_novo = 'D:\Clips'
 

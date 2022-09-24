@@ -1,5 +1,7 @@
 import os
-import shutil
+
+
+# Foi ensinado nessa aula como se usar o Modulo OS e algumas de suas funcões
 
 
 caminho_procura = input("Digite um caminho: ")
